@@ -23,7 +23,7 @@ set(PROJECT_SOURCES
 qt_add_executable(minimal MANUAL_FINALIZATION ${PROJECT_SOURCES})
 
 target_include_directories(minimal PRIVATE include)
-target_link_libraries(minimal PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(minimal PRIVATE Qt6::Widgets)
 
 set_target_properties(minimal
     PROPERTIES ${BUNDLE_ID_OPTION} 
