@@ -14,6 +14,7 @@ make
 ## CMake
 
 ```bash
-cmake .
+mkdir build && cd build
+cmake ..
 make
 ```
